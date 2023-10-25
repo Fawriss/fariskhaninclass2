@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Faris Khan In Class</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="title">
+      Welcome to the Interactive ABC's of CSS Technology Learning Website
+    </div>
+    <div class="subtitle">
+      Click on the buttons below to reveal and learn the CSS technology features
+      of the corresponding letters
+    </div>
+    <div class="image">
+      <div class="lettera">
+        <img
+          class="letA" src="./images/css-letter-a.png" alt=""
+        />
+        <input
+          type="button" class="letterahide" value="Hide" onclick="hide1()"
+        />
+      </div>
+      <div class="letterb">
+        <img
+          class="letB" src="./images/css-letter-b.png" alt=""
+        />
+        <input
+          type="button" class="letterbhide" value="Hide" onclick="hide2()"
+        />
+      </div>
+      <div class="letterc">
+        <img
+          class="letC" src="./images/css-letter-c.png" alt=""
+        />
+        <input
+          type="button" class="letterchide" value="Hide" onclick="hide3()"
+        />
+      </div>
+    </div>
+    <div class="button">
+      <input type="button"
+       class="butt1" 
+       value="A" 
+       onclick="show1()" />
+      <input type="button" 
+      class="butt2" 
+      value="B" 
+      onclick="show2()" />
+      <input type="button" 
+      class="butt3" 
+      value="C" 
+      onclick="show3()" />
+    </div>
+    <script src="./dom.js"></script>
+  </body>
+</html>
